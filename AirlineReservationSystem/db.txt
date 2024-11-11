@@ -1,0 +1,14 @@
+CREATE DATABASE dbAirline;
+
+USE dbAirline;
+
+CREATE TABLE tblUsers (
+    userid VARCHAR(50) PRIMARY KEY,
+    password VARCHAR(255) NOT NULL,
+    fullName VARCHAR(100) NOT NULL
+);
+
+INSERT INTO tblUsers (userid, password, fullName) VALUES 
+('h123', '4784', 'harsh lakra'),
+('k123', '4786', 'kumar yash'),
+('m123', '4789', 'mohit raj');
